@@ -1,4 +1,5 @@
 package Chapter3;
 
-public class Dog {
+class Dog {
+
 }
