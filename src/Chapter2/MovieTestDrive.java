@@ -6,6 +6,7 @@ public class MovieTestDrive {
         one.title = "Gone with the Stock";
         one.genre = "Tragic";
         one.rating = -2;
+        one.display();
         Movie two = new Movie();
         two.title = "Lost in Cubicle Space";
         two.genre = "Comedy";
@@ -16,4 +17,5 @@ public class MovieTestDrive {
         three.genre = "Tragic but ultimately uplifting";
         three.rating = 127;
     }
+
 }
