@@ -32,3 +32,6 @@ package Chapter2.Exercise_3_Pg_45;
 
 //I declare methods.
 //Answer: Class
+
+//I can change at runtime.
+//Answer: Instance variable
