@@ -1,4 +1,9 @@
 package Chapter2.Exercise_2_Pg_44;
 
-public class Echo {
+class Echo {
+    int count = 0;
+
+    void hello() {
+        System.out.println("helloooo...");
+    }
 }
