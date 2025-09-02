@@ -27,3 +27,6 @@ package Chapter2.Exercise_3_Pg_45;
 //I am used to create object instances.
 //Answer: Class
 
+//My state can change.
+//Answer: Object
+
