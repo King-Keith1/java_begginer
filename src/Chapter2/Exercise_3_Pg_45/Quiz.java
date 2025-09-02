@@ -30,3 +30,5 @@ package Chapter2.Exercise_3_Pg_45;
 //My state can change.
 //Answer: Object
 
+//I declare methods.
+//Answer: Class
