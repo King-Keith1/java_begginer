@@ -12,12 +12,15 @@ public class PetOwner {
         Lion lion = new Lion();
         Cat cat = new Cat();
         vet.giveShot(dog);   // Dog's makeNoise() runs
-        vet.giveShot(hippo); // Hippo's makeNoise() runs
-        vet.giveShot(cat);
-        vet.giveShot(lion);
         vet.careGive(dog);
+
+        vet.giveShot(hippo); // Hippo's makeNoise() runs
         vet.careGive(hippo);
+
+        vet.giveShot(cat);
         vet.careGive(cat);
+
+        vet.giveShot(lion);
         vet.careGive(lion);
 
     }

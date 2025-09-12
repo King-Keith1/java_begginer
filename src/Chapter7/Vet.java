@@ -10,5 +10,6 @@ public class Vet {
     public void careGive(Animal b) {
         b.roam();
         b.eat();
+        System.out.println();
     }
 }
