@@ -15,6 +15,11 @@ public class PetOwner {
         vet.giveShot(hippo); // Hippo's makeNoise() runs
         vet.giveShot(cat);
         vet.giveShot(lion);
+        vet.careGive(dog);
+        vet.careGive(hippo);
+        vet.careGive(cat);
+        vet.careGive(lion);
+
     }
 
     public static void main(String[] args) { //This is the entry point of a Java program.
