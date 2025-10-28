@@ -1,34 +1,26 @@
 package Chapter10.Summary;
 
 public class StaticDemo {
-    static int totalDogs = 0;  // Shared across all dogs
-    String name;               // Unique per dog
+    static int counter = 0; // Shared across all instances
 
-    StaticDemo(String name) {
-        this.name = name;
-        totalDogs++;
+    StaticDemo() {
+        counter++;
     }
 
-    void bark() {
-        System.out.println(name + " says: Woof!");
-    }
-
-    static void showTotalDogs() {
-        System.out.println("🐾 Total dogs created: " + totalDogs);
+    static void showCount() {
+        System.out.println("Objects created: " + counter);
     }
 
     public static void main(String[] args) {
-        StaticDemo d1 = new StaticDemo("Rex");
-        StaticDemo d2 = new StaticDemo("Bella");
+        StaticDemo a = new StaticDemo();
+        StaticDemo b = new StaticDemo();
+        StaticDemo.showCount(); // Objects created: 2
 
-        d1.bark();
-        d2.bark();
+        double result = Math.sqrt(16); // Static method usage
+        System.out.println("Square root of 16: " + result);
 
-        StaticDemo.showTotalDogs(); // Access via class name
-
-        // Wrapper class example
-        Integer num = 10;   // autoboxing (int -> Integer)
-        int sum = num + 5;  // unboxing (Integer -> int)
-        System.out.println("Sum using wrapper: " + sum);
+        Integer num = 42;  // Auto-boxing example
+        System.out.println("Integer object value: " + num);
     }
 }
+
